@@ -15,5 +15,17 @@ namespace LTSVTest
 
       value.IsNull();
     }
+
+    [TestMethod]
+    public void 存在するキーで取得すると対応する値を返す()
+    {
+      var ltsv = new LTSV.LTSV();
+
+      dynamic dynLtsv = ltsv.AsDynamic();
+      dynLtsv.store["key"] = "value";
+
+      ltsv.Get("key").Is("value");
+
+    }
   }
 }
