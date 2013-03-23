@@ -14,7 +14,7 @@ namespace LTSV
       {
         return null;
       }
-      return "";
+      return "value";
     }
   }
 }
