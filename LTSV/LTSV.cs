@@ -7,9 +7,14 @@ namespace LTSV
 {
   public class LTSV
   {
-    public string Get(string p)
+    private readonly IDictionary<string, string> store = new Dictionary<string, string>();
+    public string Get(string key)
     {
-      return null;
+      if (!store.ContainsKey(key))
+      {
+        return null;
+      }
+      return "";
     }
   }
 }
