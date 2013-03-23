@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTSV", "LTSV\LTSV.csproj", "{63590BA5-B7FF-47B4-A876-4886E8000364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTSVTest", "LTSVTest\LTSVTest.csproj", "{3B7EB9E5-F5BD-4DD2-BC4D-D98DF60EEB67}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63590BA5-B7FF-47B4-A876-4886E8000364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63590BA5-B7FF-47B4-A876-4886E8000364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63590BA5-B7FF-47B4-A876-4886E8000364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63590BA5-B7FF-47B4-A876-4886E8000364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7EB9E5-F5BD-4DD2-BC4D-D98DF60EEB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7EB9E5-F5BD-4DD2-BC4D-D98DF60EEB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7EB9E5-F5BD-4DD2-BC4D-D98DF60EEB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7EB9E5-F5BD-4DD2-BC4D-D98DF60EEB67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
